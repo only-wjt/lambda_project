@@ -2,6 +2,7 @@ package com.onlyWjt;
 
 import com.onlyWjt.model.Author;
 import com.onlyWjt.utils.Constutil;
+import com.sun.deploy.util.StringUtils;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,10 +14,19 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        test01();
-        test02();
-        test03();
+//        test01();
+//        test02();
+//        test03();
+        test05();
+        
     }
+
+    private static void test05() {
+        //打印所有作家的姓名
+        List<Author> authors = Constutil.getAuthors();
+
+    }
+
     private static void test03() {
         System.out.println("=============test03===================");
         Map<String,Integer> map = new HashMap<>();
