@@ -18,6 +18,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2ONAtTRdpjyUcMhDuokJeOCe0kd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +30,10 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/Users/onlywjt/Documents/java相关/lambda_project/lambda_project/stream_maven/src/main/java/com/onlyWjt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
@@ -47,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681390882971</updated>
-      <workItem from="1681390884026" duration="201000" />
+      <workItem from="1681390884026" duration="514000" />
     </task>
     <servers />
   </component>
