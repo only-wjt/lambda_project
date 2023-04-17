@@ -6,14 +6,10 @@ import com.onlyWjt.model.Person;
 import com.onlyWjt.utils.Constutil;
 
 import java.util.*;
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Main {
+public class StreamDemo {
     public static void main(String[] args) {
 //        test01();
 //        test02();

@@ -3,9 +3,11 @@ package com.onlyWjt.utils;
 import com.onlyWjt.model.Author;
 import com.onlyWjt.model.Book;
 
+import javax.swing.text.html.Option;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class Constutil {
     public static List<Author> getAuthors() {
@@ -38,5 +40,43 @@ public class Constutil {
 
         List<Author> authorList = new ArrayList<>(Arrays.asList(author,author2,author3,author4));
         return authorList;
+    }
+    public static Author getAuthor() {
+        Author author = new Author(1L, "蒙多", 33, "一个从菜刀中明悟哲理的祖安人", null);
+        List<Book> books1 = new ArrayList<>();
+        List<Book> books2 = new ArrayList<>();
+        List<Book> books3 = new ArrayList<>();
+
+        books1.add(new Book(1L,"刀的两侧是光明与黑暗","哲学,爱情",88,"用一把刀划分了爱恨"));
+        books1.add(new Book(2L,"一个人不能死在同一把刀下","个人成长,爱情",99,"讲述如何从失败中明悟真理"));
+
+        books2.add(new Book(3L,"那风吹不到的地方","哲学",85,"带你用思维去领略世界的尽头"));
+        books2.add(new Book(3L,"那风吹不到的地方","哲学",85,"带你用思维去领略世界的尽头"));
+        books2.add(new Book(4L,"吹或不吹","爱情,个人传记",56,"一个哲学家的恋爱观注定很难把他所在的时代理解"));
+
+        books3.add(new Book(5L,"你的剑就是我的剑","爱情",56,"无法想象一个武者能对他的伴侣这么的宽容"));
+        books3.add(new Book(6L,"风与剑","个人传记",100,"两个哲学家灵魂和肉体的碰撞会激起怎么样的火花呢？"));
+        books3.add(new Book(6L,"风与剑","个人传记",100,"两个哲学家灵魂和肉体的碰撞会激起怎么样的火花呢？"));
+        author.setBooks(books2);
+        return author;
+    }
+    public static Optional<Author> getAuthorOptional() {
+        Author author = new Author(1L,null,33,"一个从菜刀中明悟哲理的祖安人",null);
+        List<Book> books1 = new ArrayList<>();
+        List<Book> books2 = new ArrayList<>();
+        List<Book> books3 = new ArrayList<>();
+
+        books1.add(new Book(1L,"刀的两侧是光明与黑暗","哲学,爱情",88,"用一把刀划分了爱恨"));
+        books1.add(new Book(2L,"一个人不能死在同一把刀下","个人成长,爱情",99,"讲述如何从失败中明悟真理"));
+
+        books2.add(new Book(3L,"那风吹不到的地方","哲学",85,"带你用思维去领略世界的尽头"));
+        books2.add(new Book(3L,"那风吹不到的地方","哲学",85,"带你用思维去领略世界的尽头"));
+        books2.add(new Book(4L,"吹或不吹","爱情,个人传记",56,"一个哲学家的恋爱观注定很难把他所在的时代理解"));
+
+        books3.add(new Book(5L,"你的剑就是我的剑","爱情",56,"无法想象一个武者能对他的伴侣这么的宽容"));
+        books3.add(new Book(6L,"风与剑","个人传记",100,"两个哲学家灵魂和肉体的碰撞会激起怎么样的火花呢？"));
+        books3.add(new Book(6L,"风与剑","个人传记",100,"两个哲学家灵魂和肉体的碰撞会激起怎么样的火花呢？"));
+        author.setBooks(books2);
+        return Optional.ofNullable(author);
     }
 }
