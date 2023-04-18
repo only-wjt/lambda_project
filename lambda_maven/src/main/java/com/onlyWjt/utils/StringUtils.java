@@ -1,7 +1,7 @@
 package com.onlyWjt.utils;
 
 import com.alibaba.fastjson.JSON;
-import com.only.utils.interfaceUtil.StringInte;
+import com.onlyWjt.utils.interfaceUtil.StringInte;
 
 public class StringUtils{
    public static <T> T StringToAll(Class<T> type, String str){

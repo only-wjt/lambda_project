@@ -1,7 +1,7 @@
 package com.onlyWjt.cores;
 
-import com.only.utils.StringUtils;
-import com.only.utils.interfaceUtil.StringInte;
+import com.onlyWjt.utils.StringUtils;
+import com.onlyWjt.utils.interfaceUtil.StringInte;
 
 public class StringTest {
     public static void main(String[] args) {

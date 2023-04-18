@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc9a7de-8bdd-43b2-8db2-e0e70591e2e0" name="Changes" comment="onlyWjt 20230417 lambda表达式的聚合函数，以及实体类的链式调用">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/MethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/MethodReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/impl/InterFaceA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/OptionalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream_maven/src/main/java/com/onlyWjt/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda_maven/src/main/java/com/onlyWjt/cores/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda_maven/src/main/java/com/onlyWjt/cores/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda_maven/src/main/java/com/onlyWjt/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda_maven/src/main/java/com/onlyWjt/utils/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../aws/aws631/jdk1.8/src.zip!/java/util/Optional.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +67,46 @@
       <recent name="$PROJECT_DIR$/lambda_maven/src/main/java/com/onlyWjt" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="LambdaDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.onlyWjt.cores.LambdaDemo01" />
+      <module name="lambda_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlyWjt.cores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.onlyWjt.cores.LambdaDemo02" />
+      <module name="lambda_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlyWjt.cores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.onlyWjt.cores.Main" />
+      <module name="lambda_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlyWjt.cores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onlyWjt.MethodDemo" />
       <module name="stream_maven" />
@@ -88,8 +120,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lambda_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lambda_project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LambdaDemo02" />
+        <item itemvalue="Application.LambdaDemo01" />
         <item itemvalue="Application.MethodDemo" />
       </list>
     </recent_temporary>
@@ -108,6 +156,7 @@
       <workItem from="1681793010055" duration="288000" />
       <workItem from="1681793313673" duration="29000" />
       <workItem from="1681793358191" duration="4435000" />
+      <workItem from="1681826317019" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="onlyWjt 20230417 lambda表达式的聚合函数，以及实体类的链式调用">
       <created>1681726922179</created>
