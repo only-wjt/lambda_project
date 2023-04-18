@@ -6,6 +6,7 @@ import com.onlyWjt.model.Person;
 import com.onlyWjt.utils.Constutil;
 
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -27,8 +28,20 @@ public class StreamDemo {
 //        test14();
 //        test15();
 //        test16();
-        test17();
+//        test17();
+        testAnd();
     }
+
+    private static void testAnd() {
+        System.out.println("=============testAnd===================");
+        System.out.println("=============test16===================");
+        List<Author> authors = Constutil.getAuthors();
+        authors.stream()
+                .filter(((Predicate<Author>) author -> author.getAge() > 17).
+                        and(author -> author.getName().length()>1))
+                .forEach(author -> System.out.println("author = " + author));
+    }
+
 
     private static void test17() {
         System.out.println("=============自定义链式调用===================");

@@ -1,5 +1,6 @@
 package com.onlyWjt;
 
+import com.onlyWjt.impl.InterFaceA;
 import com.onlyWjt.model.Author;
 import com.onlyWjt.model.Book;
 import com.onlyWjt.utils.Constutil;
@@ -22,7 +23,7 @@ public class OptionalDemo {
         test04();
     }
 
-    private static void test04() {
+    private static void test04(){
         System.out.println("=============test04==========");
         Optional<Author> authorOptional = Constutil.getAuthorOptional();
         authorOptional
